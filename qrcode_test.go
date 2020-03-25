@@ -5,7 +5,7 @@ import (
 )
 
 func TestQRCode(t *testing.T) {
-	qr := NewQRCode("https://github.com/qianlnk/qrcode", true)
+	qr := NewQRCode("https://github.com/pibigstar/qrcode", true)
 	qr.Debug()
 	qr.Output()
 }

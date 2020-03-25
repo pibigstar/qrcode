@@ -1,11 +1,14 @@
 # QRCode
 
+fork: https://github.com/qianlnk/qrcode
+add use mod
+
 a tool to generate qrcode and print it on console.
 
 ## Install
 
 ```shell
-go get -u github.com/qianlnk/qrcode/...
+go get -u github.com/pibigstar/qrcode
 ```
 
 ## Usage
@@ -13,7 +16,7 @@ go get -u github.com/qianlnk/qrcode/...
 * [ ] cmd
 
 ```shell
-qrcode 'https://github.com/qianlnk/qrcode'
+qrcode 'https://github.com/pibigstar/qrcode'
 ```
 
 * [ ] package
@@ -22,11 +25,11 @@ qrcode 'https://github.com/qianlnk/qrcode'
 package main
 
 import (
-	"github.com/qianlnk/qrcode"
+	"github.com/pibigstar/qrcode"
 )
 
 func main() {
-	qr := qrcode.NewQRCode("https://github.com/qianlnk/qrcode", false)
+	qr := qrcode.NewQRCode("https://github.com/pibigstar/qrcode", false)
 	qr.Output()
 }
 
